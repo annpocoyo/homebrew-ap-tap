@@ -5,7 +5,7 @@ class Timer < Formula
   sha256 "46883030d37a7e3d15499365f4ade98384358ea669bb9b2db748f32589c2fff3"
   license "AGPL-3.0-only"
 
-  bottle :unneeded
+  bottle do
 
   def install
     bin.install "Timer"
