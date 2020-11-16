@@ -12,6 +12,6 @@ class Timer < Formula
   end
 
   test do
-    assert_equal "5\n" + "4\n" + "3\n" + "2\n" + "1\n" + "0", shell_output("Timer 5 -s").strip
+    assert_equal "5\n" + "4\n" + "3\n" + "2\n" + "1\n" + "0", shell_output("Timer 5 -S").strip
   end
 end
